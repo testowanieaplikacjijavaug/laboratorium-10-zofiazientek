@@ -57,6 +57,6 @@ public class TestZad2 {
     
     //Co w przypadku kiedy nie znajdziemy szukanego elementu, który wyszukujemy na stronie?
     //Wynikiem będzie błąd: org.openqa.selenium.NoSuchElementException: Unable to locate element: *[name='costam']
-    }
+    //}
 
 }
