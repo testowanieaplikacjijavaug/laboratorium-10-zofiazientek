@@ -51,10 +51,12 @@ public class TestZad2 {
         driver.findElement(By.id("hplogo")).click();
     }
 
-    @Test
-    public void noElementTest() {
-        driver.findElement(By.linkText("costam")).click();
-        // org.openqa.selenium.NoSuchElementException: Unable to locate element: *[name='costam']
+    //@Test
+    //public void noElementTest() {
+        //driver.findElement(By.linkText("costam")).click();
+    
+    //Co w przypadku kiedy nie znajdziemy szukanego elementu, który wyszukujemy na stronie?
+    //Wynikiem będzie błąd: org.openqa.selenium.NoSuchElementException: Unable to locate element: *[name='costam']
     }
 
 }
